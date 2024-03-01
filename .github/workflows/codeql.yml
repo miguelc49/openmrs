@@ -68,3 +68,7 @@ jobs:
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v2
+      with:
+        name: codeql-sarif
+        path: ${{ steps.codeql.outputs.sarif-upload-url }}
+        if-no-files-found: error # 'warn' or 'ignore' are also available, error by default
