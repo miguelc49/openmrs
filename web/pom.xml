@@ -98,8 +98,8 @@
            <artifactId>response</artifactId>
        </dependency>
        <dependency>
-           <groupId>taglibs</groupId>
-           <artifactId>standard</artifactId>
+           <groupId>org.apache.taglibs</groupId>
+           <artifactId>taglibs-standard</artifactId>
        </dependency>
        <dependency>
            <groupId>taglibs</groupId>
